@@ -1,0 +1,22 @@
+{
+    "cards":[
+        {
+            "id": 1,
+            "imgName": "Japon",
+            "imgUser": "jaume",
+            "imgURL": "japon"
+        },
+        {
+            "id": 2,
+            "imgName": "Noruega",
+            "imgUser": "lucas",
+            "imgURL": "noruega"
+        },
+        {
+            "id": 3,
+            "imgName": "Bahamas",
+            "imgUser": "jaume&lucas",
+            "imgURL": "bahamas"
+        }
+    ]
+}
