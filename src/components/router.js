@@ -1,8 +1,7 @@
 import React from "react";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import App from "../App";
-import HomeIG from "./homeIG";
-
+import HomeIG from "./homeIG/homeIG";
 
 
 function Router () {

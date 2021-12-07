@@ -1,9 +1,13 @@
-import LandingPage from './components/landingPage';
+import LandingPage from './components/landingPage/landingPage';
+import HomeIG from './components/homeIG/homeIG';
 import './styles/App.scss';
 
 function App() {
   return (
-    <LandingPage />
+    <div>
+      <LandingPage />
+      <HomeIG />
+    </div>
   );
 }
 

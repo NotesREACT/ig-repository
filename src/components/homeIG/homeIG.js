@@ -1,13 +1,17 @@
 import React, { Component } from "react";
+import IterationCard from "./interationCard";
 import NavbarIG from "./navbarIG";
-import TemplateCard from "./templateCard";
+import data from "../../assets/data/cards.json"
 
 class HomeIG extends Component {
+    state = {
+        cards: data
+    }
     render () {
         return (
-            <div>
+            <div >
                 <NavbarIG />
-                <TemplateCard />
+                <IterationCard data={this.state.cards} />
             </div>
         )
     }

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Navbar from "./navbar";
-import logo from '../assets/ico/logo.svg';
+import Navbar from './navbar'
+import logo from '../../assets/ico/logo.svg';
 
 class LandingPage extends Component{
     render() {
